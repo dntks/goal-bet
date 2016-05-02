@@ -1,2 +1,5 @@
 general:
   build_dir: goal-bet
+test:
+  override:
+    - ./gradlew assembleDebug
